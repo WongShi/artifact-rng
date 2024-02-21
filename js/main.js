@@ -1,7 +1,6 @@
 // ready function
 $(document).ready(() => {
     // Credits
-    console.log('%cArtifact RNG by AKAMiNE', 'color: red; font-size: 20px; font-weight: bold;');
     console.log('%cCredits to Genshin Impact Wiki for the data', 'color: red; font-size: 20px; font-weight: bold;');
     console.log('%chttps://genshin-impact.fandom.com/wiki/Artifact/Distribution', 'text-decoration: underline; cursor: pointer;');
 
@@ -20,7 +19,8 @@ $(document).ready(() => {
                 + "If the sub-stats are 4, it will have 5 Upgrades\n\n"
                 + "Occasionally, it will display wrong decimals due to rounding error.\n\n"
                 + "Click 'OK' to continue.",
-        customStat: "Select a artifact piece and main stat. After selecting main stat,\n"
+        customStat: "Custom Stat\n\n"
+                + "Select a artifact piece and main stat. After selecting main stat,\n"
                 + "the sub-stats will be displayed to the list.\n\n"
                 + "Select a sub-stat from the list and click 'Add Sub Stat'.\n"
                 + "Select what slot to add the sub-stat then click 'OK'.\n\n"
